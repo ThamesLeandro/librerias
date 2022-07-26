@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Ryzen 5 5600x",
+    "precio": 25000,
+    "img": "./img/amd-ryzen-5.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Intel i7 9700-k ",
+    "precio": 30000,
+    "img": "./img/i7-9700.jpg"
+  },
+  {
+    "id": 3,
+    "title": "AMD 6700XT 12GB",
+    "precio": 80000,
+    "img": "./img/amd-6700xt.jpg"
+  },
+  {
+    "id": 4,
+    "title": "RTX 3060 Ti 12GB",
+    "precio": 100000,
+    "img": "./img/rtx-3060.jpg"
+  },
+  {
+    "id": 5,
+    "title": "HyperX Origins 60",
+    "precio": 7000,
+    "img": "./img/hyperx-origins.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Logitech G-502",
+    "precio": 3000,
+    "img": "./img/logi-g-502.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Disco Solido SSD KingDian 1TB",
+    "precio": 15000,
+    "img": "./img/disco-ssd.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Disco Solido SSD M.2 WD 1TB",
+    "precio": 30000,
+    "img": "./img/disco-ssd-m.2.jpg"
+  },
+  {
+    "id": 9,
+    "title": "joystick Microsoft Xbox",
+    "precio": 20000,
+    "img": "./img/xbox.webp"
+  }
+]
