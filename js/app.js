@@ -48,6 +48,16 @@ const pintarCards = (data) => {
 
 const agregarAlCarrito = (e) => {
   if (e.target.classList.contains("btnAgregarCarrito")) {
+    Toastify({
+      text: "Se agrego un producto",
+      duration: 1000,
+      close: true,
+      gravity: "bottom",
+      position: "right",
+      style: {
+        background: "#000000 url(/img/astronavef.png) no-repeat right",
+      },
+    }).showToast();
     setCarrito(e.target.parentElement.parentElement.parentElement);
   }
   e.stopPropagation();
@@ -122,12 +132,32 @@ const btnAccion = (e) => {
   if (e.target.classList.contains("btnAdd")) {
     const producto = carrito[e.target.dataset.id];
     producto.cantidad++;
+    Toastify({
+      text: "Se agrego un producto",
+      duration: 1000,
+      close: true,
+      gravity: "bottom",
+      position: "right",
+      style: {
+        background: "#000000 url(/img/astronavef.png) no-repeat right",
+      },
+    }).showToast();
     carrito[e.target.dataset.id] = { ...producto };
     pintarCarrito();
   }
   if (e.target.classList.contains("btnDelete")) {
     const producto = carrito[e.target.dataset.id];
     producto.cantidad--;
+    Toastify({
+      text: "Se elimino un producto",
+      duration: 1000,
+      close: true,
+      gravity: "bottom",
+      position: "right",
+      style: {
+        background: "#000000 url(/img/astronavef2.png) no-repeat right",
+      },
+    }).showToast();
     if (producto.cantidad === 0) {
       delete carrito[e.target.dataset.id];
     }
